@@ -5,7 +5,7 @@ export default function MailBar() {
     return (
         <div className="mailbar">
                 <button onClick={() => {navigator.clipboard.writeText("mrhopela@icloud.com"), alert("Copied!")}} className="mailbar--email">
-                    <img className="email--icon" src="/src/assets/email.png"/>
+                    <img className="email--icon" src="/email.png"/>
                     <h3>Email</h3>
                 </button>
             <button className="mailbar--linkedin" onClick={(e) => {
